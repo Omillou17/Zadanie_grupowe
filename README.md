@@ -27,11 +27,11 @@ Aplikacja została pomyślnie zsynchronizowana z grupowym repozytorium GitHub i 
 
 7. Lista sprawdzonych platform:
 W ramach projektu zespół podjął próby wdrożenia oraz przetestował szeroką gamę platform hostingowych. Pełna lista sprawdzonych serwisów obejmuje:
-1. Railway (Wdrożenie udane)
-2. Azure App Service (Wdrożenie udane)
-3. Render (Wdrożenie nieudane)
-4. Fly (Wdrożenie nieudane)
-5. AWS Elastic Beanstalk (Wdrożenie nieudane)
+* Railway (Wdrożenie udane)
+* Azure App Service (Wdrożenie udane)
+* Render (Wdrożenie nieudane)
+* Fly (Wdrożenie nieudane)
+* AWS Elastic Beanstalk (Wdrożenie nieudane)
 
 8. Opis tego, co się udało:
 * Wspólna praca nad kodem: Kod aplikacji został pomyślnie napisany, zintegrowany i przetestowany w środowisku lokalnym przy użyciu jednego wspólnego repozytorium.
@@ -55,9 +55,9 @@ Podczas procesu konfiguracji i wdrażania na poszczególne platformy, zespół n
 
 *Ogólne problemy z innymi platformami alternatywnymi:
 Próby uruchomienia aplikacji na pozostałych platformach chmurowych z rynku zakończyły się niepowodzeniem z trzech głównych powodów:
-  1. Problemy z wypakowywaniem i przetwarzaniem paczek bezpośrednio z repozytorium GitHub.
-  2. Wymóg wprowadzenia danych karty płatniczej i przejścia na wersje w pełni płatne (brak darmowych pakietów startowych).
-  3. Konflikty konfiguracji sieciowej – niektóre platformy bezwzględnie wymagały zmiany portu wewnątrz kodu aplikacji na ich własny, sztywny port. Zastosowanie takiego rozwiązania zablokowałoby jednak poprawne działanie aplikacji na pozostałych, równolegle testowanych platformach.
+*Problemy z wypakowywaniem i przetwarzaniem paczek bezpośrednio z repozytorium GitHub.
+* Wymóg wprowadzenia danych karty płatniczej i przejścia na wersje w pełni płatne (brak darmowych pakietów startowych).
+* Konflikty konfiguracji sieciowej – niektóre platformy bezwzględnie wymagały zmiany portu wewnątrz kodu aplikacji na ich własny, sztywny port. Zastosowanie takiego rozwiązania zablokowałoby jednak poprawne działanie aplikacji na pozostałych, równolegle testowanych platformach.
 
 10. Krótkie wnioski
 * Najłatwiejsza platforma: Railway – po przyznaniu odpowiednich uprawnień do repozytorium GitHub, proces automatycznego budowania (CI/CD) przebiegał bezproblemowo. Platforma bardzo dobrze radzi sobie z plikami wykonywalnymi generowanymi przez Mavena, a logi systemowe są przejrzyste.
